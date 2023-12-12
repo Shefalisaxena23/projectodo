@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.div{
+    margin: 20px;
+}
+
+input{
+ padding: 4px; 
+ margin-right: 1px;
+ border: none;
+ background-color: #F8F8F8;
+}
+
+.save-btn, .edit-btn, .remove-btn, .update-btn{
+    padding: 4px;
+    background-color: #E6E6E6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn{
+    background-color: #46C263;
+    margin-left: 45px;
+   
+}
+
+.remove-btn{
+    background-color: #E33437;
+    
+}
+
+.update-btn{
+  background-color: #5897EE;
+
+}
+
+.todo {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    padding: 3px 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s ease;
+  }
+  
+  .todo:hover{
+    background: #dbdbdb;
+  }
+  
+  todo.text{
+    margin: 5px;
+  }
+
+ input[type='checkbox'] {
+    width: 15px;
+    margin-right: 3px;
+ }
+    
+  .inline {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+
+
+  
+  
